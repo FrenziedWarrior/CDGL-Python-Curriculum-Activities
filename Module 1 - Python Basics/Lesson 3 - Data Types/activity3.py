@@ -1,5 +1,5 @@
 # 0 1 2 3 4 5 6 7 8 9 10 11 12 13
-# A b h i s h e k   K a  r
+# A b h i s h e k   K a r
 
 # 1) Ask the user to enter a word or sentence and store it in `text`.
 # 2) Reverse the string stored in `text` and store the reversed result in `revText`.
@@ -11,12 +11,10 @@
 text = input("Enter a string: ")
 
 # [ START_INDEX : END_INDEX : SKIP]
-revText = text[4:6:-1]
+revText = text[::-1]
 
 text = revText
 
 print("Reversed text is", text)
-
-
 
 string = "ABCD".lower()
