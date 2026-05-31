@@ -11,3 +11,5 @@ birthday5 = "Lakshya- 9th of august"
 print(birthday1)
 print(birthday2)
 print(birthday3)
+print(birthday4)
+print(birthday5)
