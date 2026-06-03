@@ -1,9 +1,11 @@
 # AFTER CLASS PROJECT - NESTED CONDITIONS
+# Assignment: Check Age
+# Write a program to check the age entered by the user is between 10 to 20 years or not?
 
-# Take a integer input from user
+age = int(input("Enter age: "))
 
-# If it is a multiple of 3, print "Fizz" instead of the number. 
-
-# If it is a multiple of 5, print "Buzz" instead of the number. 
-
-# For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
+if age >= 10:
+    if age <= 20:
+        print("Age is between 10 & 20 years")
+    else:
+        print("Age is not between 10 & 20 years")

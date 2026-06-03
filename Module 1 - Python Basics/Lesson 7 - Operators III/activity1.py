@@ -1,7 +1,11 @@
 # ACTIVITY 1 - IDENTITY OPERATOR
-# Python program to illustrate the use
+# Python program to illustrate the use of "is" operator
 
 x = 5
+
+# print("type(x) == int ->", type(x) == int, type(int))
+# print(type(type))
+
 if (type(x) is int):
     print("true")
 else:
@@ -14,12 +18,12 @@ if (type(x) is not float):
 else:
     print("false")
 
-x = 20
-y = 20
+x = "Abhishek"
+y = "Abhishek"
 
 if (x is y):
     print("x & y SAME identity")
 
-y = 30
+# y = 30
 if (x is not y):
     print("x & y have DIFFERENT identity")

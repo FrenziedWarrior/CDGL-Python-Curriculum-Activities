@@ -1,9 +1,39 @@
-# Calculate student's grade from total marks
-# Take input of total marks
-# If marks greater than/equal to 90, A+
-# If marks greater than/equal to 80 but less than 90, grade is A
-# If marks greater than/equal to 70 but less than 80, grade is B
-# If marks greater than/equal to 60 but less than 70, grade is C
-# If marks greater than/equal to 50 but less than 60, grade is D
-# If marks greater than/equal to 40 but less than 50, grade is E
-# If marks less than 40, grade is F
+# 1) Ask the user to enter the number of electricity units consumed and store it in `units`.
+units = int(input("Enter the number of electricity units consumed: "))
+
+# 2) Use if–elif–else to decide the cost based on `units`:
+#    - If `units` is less than 50:
+#      Set `amount` as units × 2.60 and set `surcharge` as 25.
+#    - Else if `units` is 100 or less:
+#      Set `amount` as (cost for first 50 units) + (remaining units × 3.25)
+#      Set `surcharge` as 35.
+#    - Else if `units` is 200 or less:
+#      Set `amount` as (cost for first 50 units) + (cost for next 50 units) + (remaining units × 5.26)
+#      Set `surcharge` as 45.
+#    - Else (units more than 200):
+#      Set `amount` as (cost for first 50) + (next 50) + (next 100) + (remaining units × 8.45)
+#      Set `surcharge` as 75.
+amount = 0
+surcharge = 0
+
+
+if units < 50:
+    amount = units * 2.6
+    surcharge = 25
+elif units <= 100:
+    amount = (50 * 2.6) + (units - 50) * 3.25
+    surcharge = 35
+elif units <= 200:
+    amount = (50 * 2.6) + (50 * 3.25) + (units - 100) * 5.26
+    surcharge = 45
+else:
+    amount = (50 * 2.6) + (50 * 3.25) + (100 * 5.26) + (units - 200) * 8.45
+    surcharge = 75
+
+
+# 3) Calculate the final bill:
+#    total = amount + surcharge
+total = amount + surcharge
+
+# 4) Print the electricity bill (`total`) in 2 decimal places.
+print("Total electricity bill = %.2f " % total)

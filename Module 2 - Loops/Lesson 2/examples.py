@@ -1,10 +1,11 @@
-# word = "Hello"
+# word = "abcdefghijklmnop"
 
-# for character in word:
-#     print(character)
+# for c in word:
+#     print(c)
 
 
-# range (START_NUMBER, END_NUMBER, SKIP)
+# range(START_NUMBER, END_NUMBER, SKIP_AND_DIRECTION)
 
-for n in range(10):
-    print(n)
+n = 10
+for i in range(1, n+1):
+    print(i)

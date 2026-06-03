@@ -1,3 +1,5 @@
+# ACTIVITY 1 - SUM OF N WHOLE NUMBERS
+
 # 1) Ask the user to enter a number and store it in `n`.
 
 # 2) Set `sum` to 0.

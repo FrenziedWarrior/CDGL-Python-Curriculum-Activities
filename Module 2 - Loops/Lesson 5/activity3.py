@@ -1,3 +1,5 @@
+# ACTIVITY 3 - Diamond Pattern
+
 # Take input from user
 rowSize = int(input("enter the number of rows: "))
 

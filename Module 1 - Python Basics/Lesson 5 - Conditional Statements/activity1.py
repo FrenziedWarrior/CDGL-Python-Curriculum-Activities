@@ -1,9 +1,8 @@
 # ACTIVITY 1 - CONDITIONAL STATEMENTS
 
-num = 893
-if num > 0:
-    print(num, "is a positive number.")
+number = 893
 
-num = -1999
-if num < 0:
-    print(num, "is a negative number.")
+if number < 0:
+    print("Positive number")
+
+print("It is a number")

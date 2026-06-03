@@ -1,8 +1,16 @@
+# ACTIVITY 1 - SUM OF N NATURAL NUMBERS
+
+n = int(input("Enter the value of terms: "))
+
+# to hold the running sum
+sum = 0
+
+# loop index
 i = 1
-while i > 0:
-    print(i)          # 1, 2, 3, 4
-    
-    i = i + 1         #5
-        
-    if i == 5:
-        i = 0
+
+# loop will run from 1 to n
+while i <= n:
+  sum += i
+  i += 1
+
+print("\nSum =", sum)

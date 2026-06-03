@@ -40,7 +40,7 @@
 
 message = "congratulations"
 
-print( message == "daksh")
+# print( message == "daksh")
 
 
 # COMPARISON OPERATORS
@@ -79,3 +79,22 @@ yourAge += 100
 
 
 
+
+
+
+
+
+
+
+
+
+
+some_variable = 3
+
+# some_variable = some_variable + 5
+
+some_variable += 5
+
+print(some_variable)
+
+# print ( a == a + 5 )

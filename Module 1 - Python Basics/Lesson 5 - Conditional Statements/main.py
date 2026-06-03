@@ -1,17 +1,17 @@
 
 num = 9
 
-if num > 0: # ------ True
-    print(num, "is a positive number")
-else:
-    print(num, "is a negative number")
+# if num > 0: # ------ True
+#     print(num, "is a positive number")
+# else:
+#     print(num, "is a negative number")
 
 
-# IF Jesslynn eats biryani
-# THEN She will be happy
+# IF You eats biryani
+# THEN You will be happy
 
-# OR ELSE IF Jesslynn eats Carrots
-# THEN She will be sad
+# OR ELSE IF You eats Carrots
+# THEN You will be sad
 
 food = "carrots"
 your_mood = "UNKNOWN"
@@ -20,7 +20,7 @@ your_mood = "UNKNOWN"
 if food == "biryani":
     your_mood = "happy"
 
-print(your_mood)
+# print(your_mood)
 
 
 
@@ -33,3 +33,21 @@ print(your_mood)
 # # -100 < 0 -----> True
 # if num < 0:
 #     print(num, "is a negative number")
+
+
+
+
+
+
+
+num = 100
+
+# if num % 2 == 0:
+#     print("positive")
+# elif num % 2 == 1:
+#     print("negative")
+
+if num % 2 == 0:
+    print("positive")
+else:
+    print("negative")

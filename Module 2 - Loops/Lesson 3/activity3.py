@@ -1,3 +1,5 @@
+# ACTIVITY 3 - ARMSTRONG NUMBER
+
 # 1) Ask the user to enter a number and store it in `num`.
 num = int(input("enter a number - "))
 

@@ -1,3 +1,5 @@
+# ACTIVITY 1 - Half Pyramid Pattern of Stars (*)
+
 # Take input
 print("Half Pyramid Pattern of Stars (*):")
 
